@@ -1,6 +1,6 @@
 var appRouter = function(app) {
 
-    app.get("/", function(req, res) {
+    app.get("/api", function(req, res) {
          res.send("This is a test node app running in Azure Cloud.");
     });
 
